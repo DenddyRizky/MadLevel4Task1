@@ -24,6 +24,7 @@ abstract class ShoppingListRoomDatabase : RoomDatabase() {
                     }
                 }
             }
+            return shoppingListRoomDatabaseInstance
         }
     }
 }

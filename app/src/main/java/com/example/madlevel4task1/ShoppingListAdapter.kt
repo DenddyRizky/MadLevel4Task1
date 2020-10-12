@@ -11,7 +11,7 @@ class ShoppingListAdapter(private val products: List<Product>) : RecyclerView.Ad
     /**
      * Creates and returns a ViewHolder object, inflating a standard layout called simple_list_item_1.
      */
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ShoppingListAdapter.ViewHolder {
         return ViewHolder(
             LayoutInflater.from(parent.context).inflate(R.layout.product, parent, false)
         )
